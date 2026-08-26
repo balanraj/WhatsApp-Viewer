@@ -1,0 +1,1 @@
+export function formatTime(d?:Date){return d?d.toLocaleTimeString([], {hour:'numeric',minute:'2-digit'}):''} export function formatDate(d?:Date){return d?d.toLocaleDateString([], {day:'2-digit',month:'long',year:'numeric'}):'Unknown date'}
